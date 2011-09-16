@@ -1,0 +1,24 @@
+Border States API
+----------------------------------------------------------
+Allows you to specify a U.S. state and returns all of the
+bordering states in a JSON request.
+
+Useful for computing regional statistics from neighboring
+states.
+----------------------------------------------------------
+
+You can use this API freely at
+
+http://teladesign.net/API/borders.php?state=[yourstatehere]
+
+
+When you specify the variable state in the URL parameter it
+returns a JSON formatted page with a comma separated list of
+bordering states.
+
+
+{
+	-result: {
+		border_states: "WV,MD,DC,NC,KY,TN"
+	}
+}
